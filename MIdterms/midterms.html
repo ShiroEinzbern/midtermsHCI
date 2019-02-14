@@ -1,58 +1,106 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" href="midterms.css">
-	<title>Sign Up</title>
-</head>
-<body>
-	<h1> Create your Email</h1>
-		<form>
-		<fieldset>
-			<legend> Personal Information</legend>
-    <label>
-        Full Name
-        <input 
-         style= "border-color:#f5f5f5" 
-         id="name" 
-         name="name" 
-         type="text" />
-    </label>
-    <label>
-        Current Address
-        <input 
-         style= "border-color:#f5f5f5" 
-         id="name" 
-         name="name" 
-         type="text" />
-    </label>
-    <label>
-    	Gender
-    	<select
-    	 style= "border-color:#f5f5f5"
-    	 id= "myList">
-    	 <option value="1">Male</option>
-    	 <option value="2">Female</option>
-    	 <option value="3">Other</option>
-    	</select>
+	<head>
+		<link rel="stylesheet" href="midterms.css">
+		<title>Sign Up</title>
+		</head>
+		<body>
+			<h1> Create your Email</h1>
+				<form>
+				<fieldset>
+					<legend> Personal Information</legend>
+		    <label>
+		        Full Name
+		        <input 
+		         style= "border-color:#f5f5f5" 
+		         id="name" 
+		         name="name" 
+		         type="text" />
+		    </label>
+		    <label>
+		        Current Address
+		        <input 
+		         style= "border-color:#f5f5f5" 
+		         id="name" 
+		         name="name" 
+		         type="text" />
+		    </label>
+		    	<label>
+	    		Gender
+	    		<select
+	    		 style= "border-color:#f5f5f5"
+	    	 	id= "myList">
+	    	 	<option value="1">Male</option>
+	    	 	<option value="2">Female</option>
+	    	 	<option value="3">Other</option>
+	    		</select>
 
-    </label>
-    <label>
-        Phone number
-        <input
-         style= "border-color:#f5f5f5" 
-         id="phone" 
-         name="phone" 
-         type="text" />
-    </label>
-</fieldset>			
-    <label>
-        Email ID
-        <input
-         style= "border-color:#f5f5f5" 
-         id="phone" 
-         name="phone" 
-         type="text" />
-    </label>
-		</form>
-</body>
+	    	</label>
+	    	<label>
+	        	Phone number
+	        	<input
+	         	style= "border-color:#f5f5f5" 
+	         	id="phone" 
+	         	name="phone" 
+	         	type="text" />
+	    	</label>
+	</fieldset>	
+	<fieldset>
+		<legend> Set-up your Email</legend>
+	    	<label>
+	        Email ID
+	        	<input
+	         	style= "border-color:#f5f5f5" 
+	         	id="phone" 
+	         	name="phone" 
+	         	type="text" />
+	   	 	</label>
+	   	 	<label>
+	   	 		Password
+	   	 		<input
+	         	style= "border-color:#f5f5f5" 
+	         	id="phone" 
+	         	name="phone" 
+	         	type="text" />
+	   	 	</label>
+	   	 	<label>
+	   	 		Re-type Password
+	   	 		<input
+	         	style= "border-color:#f5f5f5" 
+	         	id="phone" 
+	         	name="phone" 
+	         	type="text" />
+	   	 	</label>
+
+	    </fieldset>
+			</form>
+		<style>
+		.button {
+		  background-color: #4CAF50; /* Green */
+		  border: none;
+		  color: white;
+		  padding: 16px 32px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  -webkit-transition-duration: 0.4s; /* Safari */
+		  transition-duration: 0.4s;
+		  cursor: pointer;
+		}
+
+		.button1 {
+		  background-color: white; 
+		  color: black; 
+		  border: 2px solid #4CAF50;
+		}
+
+		.button1:hover {
+		  background-color: #4CAF50;
+		  color: white;
+		}
+		</style>
+		<button class="button button1">Sign Up</button>
+	</body>
 </html>
