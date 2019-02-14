@@ -1,0 +1,7 @@
+label, input, select {
+    display: block;
+}
+
+label {
+    margin-bottom: 20px;
+}
